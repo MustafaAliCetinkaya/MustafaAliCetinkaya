@@ -4,7 +4,7 @@
 - 🔭 I’m Software Development Engineer in Test (SDET)
 - 🌱 I’m currently working on QA Automation
 - 💬 Ask me about Java, HTML, CSS, SQL, Selenium, Junit, TestNg, Cucumber, API, SDLC, STLC, Agile
-- 📫 How to reach me: macetinkaya.03@gmail.com
+- 📫 How to reach me: macetinkaya.03@gmail.com / [Personal Website](https://mustafaalicetinkaya.w3spaces.com)
 - ⚡ Fun fact: Learning always new things. Because new is always better!
 
 ### Skills can be taught, experience can be gained. Interest is hard to instill. Passion for testing is the vital point. I am actively interested in QA field. 
