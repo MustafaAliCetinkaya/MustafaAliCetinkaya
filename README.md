@@ -1,4 +1,5 @@
-### [![linkedin](https://img.shields.io/badge/Linkedin-000000?style=for-the-badge&logo=Linkedin&logoColor=white)](https://linkedin.com/in/mustafa-çetinkaya-b61741216)  Hi there 👋 I am Mustafa
+[![linkedin](https://img.shields.io/badge/Linkedin-000000?style=for-the-badge&logo=Linkedin&logoColor=white)](https://linkedin.com/in/mustafa-çetinkaya-b61741216)  
+### Hi there 👋 I am Mustafa
 
 - 🔭 I’m Software Development Engineer in Test (SDET)
 - 🌱 I’m currently working on QA Automation
