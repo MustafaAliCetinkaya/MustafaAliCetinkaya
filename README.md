@@ -7,7 +7,7 @@
 - 📫 How to reach me: macetinkaya.03@gmail.com / [Personal Website](https://mustafaalicetinkaya.w3spaces.com)
 - ⚡ Fun fact: Learning always new things. Because new is always better!
 
-### Skills can be taught, experience can be gained. Interest is hard to instill. Passion for testing is the vital point. I am actively interested in QA field. 
+### Skills can be learned, experience can be gained. Interest is hard to instill. Passion for testing is the vital point. I am actively interested in QA field. 
 
 ![Mustafa Ali Çetinkaya's GitHub stats](https://github-readme-stats.vercel.app/api?username=MustafaAliCetinkaya&show_icons=true&theme=radical)
 
