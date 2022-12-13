@@ -1,6 +1,8 @@
 <html>
 
 <head>
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	<meta charset="utf-8"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
@@ -102,29 +104,17 @@ segment, using only a compass and straightedge. </font></b></p>
 		</td>
 	</tr>
 	</table>
-<p style="margin-top: 6px; margin-bottom: 12px">
-<APPLET CODE="GSP.class"  ARCHIVE="jsp5.jar" CODEBASE="jsp" WIDTH=906 HEIGHT=643 ALIGN=CENTER><PARAM NAME=MeasureInDegrees VALUE=1><PARAM NAME=DirectedAngles VALUE=0>
-<PARAM NAME=BackRed VALUE=255>
-<PARAM NAME=BackGreen VALUE=255>
-<PARAM NAME=BackBlue VALUE=255>
-<PARAM NAME=Construction VALUE="
-{1} Point(47,345)[label('A')];
-{2} Point(448,343)[hidden];
-{3} Ray(2,1)[color(0,0,128)];
-{4} Point(172,274)[label('C'),hidden];
-{5} Circle(4,1)[color(0,128,0),hidden];
-{6} Intersect2(3,5)[hidden];
-{7} Ray(4,6)[hidden];
-{8} Intersect2(7,5)[hidden];
-{9} Segment(8,6)[hidden];
-{10} Segment(8,1)[color(0,0,128),hidden];
-{11} Angle(8,1,6,67,338,'')[hidden];
-{12} ShowButton(10,5,'1.Step')(4)[black];
-{13} ShowButton(10,26,'2.Step')(5,6)[black];
-{14} ShowButton(10,47,'3.Step')(9,8)[black];
-{15} ShowButton(10,68,'4.Step')(10,11)[black];
-">
-Sorry, this page requires a Java-compatible web browser.</APPLET></p>
+<br><br>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<div id="ggb-element"></div>
+<script>
+	var params = {"appName": "geometry", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+	var applet = new GGBApplet(params, true);
+	window.addEventListener("load", function() {
+		applet.inject('ggb-element');
+	});
+</script>
+<br><br>
 <table border="0" width="1280" id="table4" cellpadding="4" bgcolor="#FFFFCC">
 	<tr>
 		<td align="center">

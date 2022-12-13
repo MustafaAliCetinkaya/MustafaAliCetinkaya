@@ -1,6 +1,8 @@
 <html>
 
 <head>
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	<meta charset="utf-8"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
@@ -97,28 +99,17 @@ using only a compass and straight edge.</b></font></p>
 		</td>
 	</tr>
 	</table>
-<p style="margin-top: 6px; margin-bottom: 12px">
-<APPLET CODE="GSP.class"  ARCHIVE="jsp5.jar" CODEBASE="jsp" WIDTH=904 HEIGHT=674 ALIGN=CENTER><PARAM NAME=MeasureInDegrees VALUE=1><PARAM NAME=DirectedAngles VALUE=0>
-<PARAM NAME=BackRed VALUE=255>
-<PARAM NAME=BackGreen VALUE=255>
-<PARAM NAME=BackBlue VALUE=255>
-<PARAM NAME=Construction VALUE="
-{1} Point(346,381)[label('P')];
-{2} Point(676,381)[label('Q')];
-{3} Segment(2,1)[color(0,0,128)];
-{4} Point on object(3,0.650165)[hidden];
-{5} Distance(4,1,14,19,'')[hidden];
-{6} Circle by radius(2,5)[color(0,128,0),hidden];
-{7} Circle(1,4)[color(0,128,0),hidden];
-{8} Intersect1(6,7)[label('F'),red,hidden];
-{9} Intersect2(6,7)[label('E'),red,hidden];
-{10} Segment(8,9)[color(0,0,128),hidden];
-{11} Intersect(10,3)[label('J'),red,hidden];
-{12} ShowButton(10,7,'Construct a circle with center point P')(7)[black];
-{13} ShowButton(10,28,'Construct a circle with same radius at point Q')(6)[black];
-{14} ShowButton(10,49,'The line segment that passess through the intersection points of circles is ''''Perpendicular Bisector''''')(10,11,9,8)[black];
-">
-Sorry, this page requires a Java-compatible web browser.</APPLET></p>
+<br><br>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<div id="ggb-element"></div>
+<script>
+	var params = {"appName": "geometry", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+	var applet = new GGBApplet(params, true);
+	window.addEventListener("load", function() {
+		applet.inject('ggb-element');
+	});
+</script>
+<br><br>
 <table border="0" width="1280" id="table4" cellpadding="4" bgcolor="#FFFFCC">
 	<tr>
 		<td align="center">

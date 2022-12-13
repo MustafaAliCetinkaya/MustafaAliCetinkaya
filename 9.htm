@@ -1,6 +1,8 @@
 <html>
 
 <head>
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	<meta charset="utf-8"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
@@ -103,39 +105,17 @@ through a given external point using only a compass and straight edge. </b>
 		</td>
 	</tr>
 	</table>
-<p style="margin-top: 6px; margin-bottom: 12px">
-<APPLET CODE="GSP.class"  ARCHIVE="jsp5.jar" CODEBASE="jsp" WIDTH=904 HEIGHT=625 ALIGN=CENTER><PARAM NAME=MeasureInDegrees VALUE=1><PARAM NAME=DirectedAngles VALUE=0>
-<PARAM NAME=BackRed VALUE=255>
-<PARAM NAME=BackGreen VALUE=255>
-<PARAM NAME=BackBlue VALUE=255>
-<PARAM NAME=Construction VALUE="
-{1} Point(411,381)[label('O')];
-{2} Point(496,417)[hidden];
-{3} Circle(1,2)[color(0,128,0)];
-{4} Point(640,384)[label('P')];
-{5} Segment(4,1)[color(0,0,128)];
-{6} Point on object(5,0.663584)[hidden];
-{7} Circle(1,6)[red,hidden];
-{8} Distance(6,1,14,19,'')[hidden];
-{9} Circle by radius(4,8)[red,hidden];
-{10} Intersect2(9,7)[hidden];
-{11} Intersect1(9,7)[hidden];
-{12} Segment(10,11)[hidden];
-{13} Intersect(12,5)[label('M'),red,hidden];
-{14} Circle(13,1)[magenta,hidden];
-{15} Intersect2(14,3)[hidden];
-{16} Intersect1(14,3)[hidden];
-{17} ShowButton(10,26,'Construct a circle whose center is midpoint of |OP|')(14,15,16)[black];
-{18} Segment(4,15)[hidden];
-{19} Segment(4,16)[hidden];
-{20} Angle(1,15,4,213,113,'')[hidden];
-{21} Angle(1,16,4,213,133,'')[hidden];
-{22} Angle(15,4,1,325,113,'')[hidden];
-{23} Angle(1,4,16,325,133,'')[hidden];
-{24} ShowButton(10,5,'Find the midpoint of |OP| by constructing circles')(9,7,10,11,12,13)[black];
-{25} ShowButton(10,47,'Draw tangent lines')(18,19)[black];
-">
-Sorry, this page requires a Java-compatible web browser.</APPLET></p>
+<br><br>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<div id="ggb-element"></div>
+<script>
+	var params = {"appName": "geometry", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+	var applet = new GGBApplet(params, true);
+	window.addEventListener("load", function() {
+		applet.inject('ggb-element');
+	});
+</script>
+<br><br>
 <table border="0" width="1280" id="table4" cellpadding="4" bgcolor="#FFFFCC">
 	<tr>
 		<td align="center">

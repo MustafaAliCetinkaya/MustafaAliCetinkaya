@@ -1,6 +1,8 @@
 <html>
 
 <head>
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	<meta charset="utf-8"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
@@ -101,52 +103,17 @@ straightedge. </b></font></p>
 		</td>
 	</tr>
 	</table>
-<p style="margin-top: 6px; margin-bottom: 12px">
-<APPLET CODE="GSP.class"  ARCHIVE="jsp5.jar" CODEBASE="jsp" WIDTH=905 HEIGHT=642 ALIGN=CENTER><PARAM NAME=MeasureInDegrees VALUE=1><PARAM NAME=DirectedAngles VALUE=0>
-<PARAM NAME=BackRed VALUE=255>
-<PARAM NAME=BackGreen VALUE=255>
-<PARAM NAME=BackBlue VALUE=255>
-<PARAM NAME=Construction VALUE="
-{1} Point(509,359)[hidden];
-{2} Point(554,464)[hidden];
-{3} Circle(1,2)[color(0,128,0)];
-{4} Point on object(3,2.76616)[hidden];
-{5} Point on object(3,-2.05542)[hidden];
-{6} Segment(5,4)[hidden];
-{7} Point on object(3,-0.980176)[hidden];
-{8} Point on object(3,-0.247262)[hidden];
-{9} Segment(8,7)[hidden];
-{10} Point on object(9,0.619761)[hidden];
-{11} Circle(7,10)[hidden];
-{12} Distance(10,7,14,19,'')[hidden];
-{13} Circle by radius(8,12)[hidden];
-{14} Intersect2(13,11)[hidden];
-{15} Intersect1(13,11)[hidden];
-{16} Ray(15,14)[hidden];
-{17} Point on object(16,3.50783)[hidden];
-{18} Point on object(6,0.680039)[hidden];
-{19} Circle(4,18)[hidden];
-{20} Distance(4,18,14,19,'')[hidden];
-{21} Circle by radius(5,20)[hidden];
-{22} Intersect2(21,19)[hidden];
-{23} Intersect1(21,19)[hidden];
-{24} Ray(23,22)[hidden];
-{25} Point on object(24,1.44771)[hidden];
-{26} ShowButton(10,5,'Draw any two chords of the circle')(6,5,4,9,7,8)[black];
-{27} ShowButton(10,26,'Find the midpoints of the chords by using circles')(21,19,22,23,11,13,15,14)[black];
-{28} Segment(25,22)[hidden];
-{29} Intersect(28,6)[hidden];
-{30} Segment(17,14)[hidden];
-{31} Intersect(30,9)[hidden];
-{32} Intersect2(30,21)[hidden];
-{33} Intersect(28,30)[hidden];
-{34} Intersect1(30,21)[hidden];
-{35} Ray(29,22)[hidden];
-{36} Intersect(16,35)[hidden];
-{37} ShowButton(10,47,'Draw perpendicular bisectors of the chords')(29,35,16,31)[black];
-{38} ShowButton(10,68,'Intersection of the bisectors is center')(36)[black];
-">
-Sorry, this page requires a Java-compatible web browser.</APPLET></p>
+<br><br>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<div id="ggb-element"></div>
+<script>
+	var params = {"appName": "geometry", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+	var applet = new GGBApplet(params, true);
+	window.addEventListener("load", function() {
+		applet.inject('ggb-element');
+	});
+</script>
+<br><br>
 <table border="0" width="1280" id="table4" cellpadding="4" bgcolor="#FFFFCC">
 	<tr>
 		<td align="center">

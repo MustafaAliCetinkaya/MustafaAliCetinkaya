@@ -1,6 +1,8 @@
 <html>
 
 <head>
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	<meta charset="utf-8"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
@@ -102,28 +104,17 @@ only a compass and straightedge.</b></font></p>
 		</td>
 	</tr>
 	</table>
-<p style="margin-top: 6px; margin-bottom: 12px">
-<APPLET CODE="GSP.class"  ARCHIVE="jsp5.jar" CODEBASE="jsp" WIDTH=904 HEIGHT=618 ALIGN=CENTER><PARAM NAME=MeasureInDegrees VALUE=1><PARAM NAME=DirectedAngles VALUE=0>
-<PARAM NAME=BackRed VALUE=255>
-<PARAM NAME=BackGreen VALUE=255>
-<PARAM NAME=BackBlue VALUE=255>
-<PARAM NAME=Construction VALUE="
-{1} Point(47,171)[label('A')];
-{2} Point(203,169)[label('B')];
-{3} Segment(2,1)[color(0,0,128),thick];
-{4} Point(257,411)[label('P'),hidden];
-{5} Circle by radius(4,3)[color(0,128,0),hidden];
-{6} Point on object(5,0)[hidden];
-{7} Circle by radius(6,3)[hidden];
-{8} Intersect2(7,5)[hidden];
-{9} Segment(4,8)[hidden];
-{10} Segment(6,4)[color(0,0,128),hidden];
-{11} Segment(8,6)[hidden];
-{12} ShowButton(10,5,'Construct a circle with radius |AB|')(4,5)[black];
-{13} ShowButton(10,26,'Take a point on circle and construct a circle with same radius')(6,7)[black];
-{14} ShowButton(10,47,'Determine the intersection of circles and draw segments between points')(8,9,11,10)[black];
-">
-Sorry, this page requires a Java-compatible web browser.</APPLET></p>
+<br><br>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<div id="ggb-element"></div>
+<script>
+	var params = {"appName": "geometry", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+	var applet = new GGBApplet(params, true);
+	window.addEventListener("load", function() {
+		applet.inject('ggb-element');
+	});
+</script>
+<br><br>
 <table border="0" width="1280" id="table4" cellpadding="4" bgcolor="#FFFFCC">
 	<tr>
 		<td align="center">
