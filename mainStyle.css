@@ -115,4 +115,21 @@
     display: inline-block;
 }
 
+.externalLinks > a{
+    text-align: left;
+    font-style: italic;
+    color: darkred;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: small;
+}
+
+.externalLinks a:any-link {
+    text-decoration: none;
+}
+
+.externalLinks a:hover {
+    text-decoration: underline;
+}
+
 
