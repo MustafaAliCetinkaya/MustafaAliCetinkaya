@@ -12,4 +12,4 @@
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MustafaAliCetinkaya)](https://github.com/MustafaAliCetinkaya/github-readme-stats)
 
 
-### Math is the king of all sciences and all mathematicians are the kings of all scientists! [Click on the link for a short trip in the bright world of mathematics](https://mustafaalicetinkaya.github.io/MustafaAliCetinkaya/index.htm)
+### Math is the king of all sciences and all mathematicians are the kings of all scientists! [Click on the link for a short trip in the bright world of mathematics](https://mustafaalicetinkaya.github.io/MustafaAliCetinkaya/index.html)
