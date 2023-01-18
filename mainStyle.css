@@ -1,0 +1,99 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.flex-container > div {
+    background-color: #FFFF66;
+    border-style: dashed;
+    width: 326px;
+    margin: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+.flex-container > div > a:any-link {
+    text-decoration: none;
+}
+
+.flex-container > div > div > a:any-link {
+    text-decoration: none;
+}
+
+.flex-container > div > a:hover {
+    text-decoration: underline;
+}
+
+.flex-container > div > div > a:hover {
+    text-decoration: underline;
+}
+
+.flex-container > div:nth-child(10) {
+    line-height: 20px;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    overflow-y: auto;
+    max-height: 740px;
+
+}
+
+
+.text > h1 {
+    text-align: center;
+    color: darkred;
+}
+
+.text {
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: blue;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: large;
+}
+
+.index{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: blue;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: large;
+}
+
+#contentFrame {
+    align-items: center;
+
+}
+
+.img {
+    border-color: #FFFF66;
+    border-style: dashed;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background: url("2.jpg")no-repeat;;
+    display: inline-block;
+}
+
+.img:hover {
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background: url("1.jpg");
+    display: inline-block;
+}
+
+
