@@ -73,6 +73,25 @@
     font-size: large;
 }
 
+.contact{
+    text-align: center;
+    font-style: italic;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: darkred;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: small;
+}
+
+.contact a:any-link {
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
 #contentFrame {
     align-items: center;
 
