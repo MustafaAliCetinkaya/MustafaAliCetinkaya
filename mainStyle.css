@@ -109,7 +109,7 @@
 
 .img:hover {
     align-items: center;
-    width: 100%;
+    width: 98%;
     height: 400px;
     background: url("1.jpg");
     display: inline-block;
