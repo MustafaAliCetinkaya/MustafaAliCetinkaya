@@ -126,11 +126,9 @@
 
 .gauss:hover {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 40%;
     height: 300px;
-    background: url("4.png")no-repeat;
+    background: url("4.png");
 }
 
 .externalLinks > a{
