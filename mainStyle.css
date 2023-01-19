@@ -98,13 +98,13 @@
 }
 
 .img {
-    border-color: #FFFF66;
-    border-style: dot-dot-dash;
     align-items: center;
     width: 100%;
     height: 400px;
     background: url("2.jpg")no-repeat;
     display: inline-block;
+    border-color: #FFFF66;
+    border-style: dot-dot-dash;
 }
 
 .img:hover {
