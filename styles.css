@@ -47,6 +47,16 @@ html, body {
     color:darkred;
     font-weight: bold;
 }
+.sapleSolution{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color:darkred;
+    font-weight: bold;
+}
 
 
 .column > div{
@@ -79,7 +89,10 @@ html, body {
     text-align: center;
     color: darkred;
 }
-
+.solutionHeader > h2 {
+    text-align: center;
+    color: darkred;
+}
 
 .header{
     font-size: 12px;
@@ -103,6 +116,15 @@ html, body {
 }
 
 .header > div> a:hover {
+    text-decoration: underline;
+}
+.linkedin> a:any-link {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+.linkedin> a:hover {
     text-decoration: underline;
 }
 .searchBox{
