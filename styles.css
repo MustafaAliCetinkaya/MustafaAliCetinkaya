@@ -1,0 +1,116 @@
+
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.column{
+    line-height:60px;
+    width: 30%;
+    margin-top: 5%;
+    text-align: center;
+    display: block;
+    float: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%;
+    overflow-y: auto;
+    height: 100%;
+    margin-top: 3%;
+}
+.row > .text{
+
+    font-size: medium;
+    color:darkblue;
+    font-weight: bold;
+    align-items: center;
+    text-align: left;
+    line-height: 30px;
+    flex-wrap: wrap;
+}
+
+.geogebra{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color:darkred;
+    font-weight: bold;
+}
+
+
+.column > div{
+    background-color: #FFFF66;
+    text-justify: auto;
+    font-weight: bold;
+    margin: 3%;
+    font-size: 14px;
+
+}
+
+
+.column > div> a:any-link {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+.column > div> a:hover {
+    text-decoration: underline;
+}
+
+
+.text > h2,h4,h5 {
+    text-align: center;
+    color: darkred;
+}
+
+.try > h2 {
+    text-align: center;
+    color: darkred;
+}
+
+
+.header{
+    font-size: 12px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+}
+
+.header > div{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    margin: 1%;
+}
+.header > div> a:any-link {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+.header > div> a:hover {
+    text-decoration: underline;
+}
+.searchBox{
+    display: flex;
+    flex: 1;
+}
+.searchBox > input{
+    width: 100%;
+    text-align: center;
+
+}
