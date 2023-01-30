@@ -130,9 +130,11 @@ html, body {
 .searchBox{
     display: flex;
     flex: 1;
+
 }
 .searchBox > input{
     width: 100%;
     text-align: center;
+    border-radius: 15px;
 
 }
