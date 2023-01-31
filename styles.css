@@ -61,6 +61,7 @@ html, body {
 
 .column > div{
     background-color: #FFFF66;
+    border-radius: 30px;
     text-justify: auto;
     font-weight: bold;
     margin: 3%;

@@ -6,7 +6,7 @@
 
 .flex-container > div {
     background-color: #FFFF66;
-    border-style: dot-dot-dash;
+    border-radius: 30px;
     width: 260px;
     margin: 10px;
     text-align: center;
@@ -148,7 +148,26 @@
 
 .flex-container > div:nth-child(11) {
     background: none;
-    padding-top: 34%;
+    padding-top: 58%;
 }
+
+.website-counter {
+    background-color: #FFFF66;
+    border-radius: 30px;
+    width: 260px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    color:blue;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    color: blue;
+}
+
 
 
