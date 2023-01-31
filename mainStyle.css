@@ -148,7 +148,7 @@
 
 .flex-container > div:nth-child(11) {
     background: none;
-    padding-top: 58%;
+    padding-top: 60%;
 }
 
 .website-counter {
@@ -167,6 +167,10 @@
     flex-direction: column;
     float: left;
     color: blue;
+}
+
+.statText{
+    line-height: 19px;
 }
 
 

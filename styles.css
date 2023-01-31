@@ -28,7 +28,7 @@ html, body {
 }
 .row > .text{
 
-    font-size: 16px;
+    font-size: 14px;
     color:darkblue;
     font-weight: bold;
     align-items: center;
@@ -66,7 +66,6 @@ html, body {
     font-weight: bold;
     margin: 3%;
     font-size: 14px;
-
 }
 
 
