@@ -3,7 +3,7 @@
 
 - 🔭 I’m Software Development Engineer in Test (SDET)
 - 🌱 I’m currently and actively working on QA Automation.
-- 💬 Ask me about Java, Selenium, Junit, TestNg, Cucumber,Gauge, API, HTML, CSS, SQL, JDBC SDLC, STLC, Agile/Scrum.
+- 💬 Ask me about Java, Selenium, Junit, TestNg, Cucumber, Gauge, API, HTML, CSS, SQL, JDBC, SDLC, STLC, Agile/Scrum.
 - 📫 How to reach me: macetinkaya.03@gmail.com / [Personal Website](https://mustafaalicetinkaya.w3spaces.com)
 - ⚡ Fun fact: Learning always new things. Because new is always better!
 
