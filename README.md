@@ -4,7 +4,7 @@
 - 🔭 I’m Software Development Engineer in Test (SDET)
 - 🌱 I’m currently and actively working on QA Automation.
 - 💬 Ask me about Java, Selenium, Junit, TestNg, Cucumber, Gauge, API, HTML, CSS, SQL, JDBC, SDLC, STLC, Agile/Scrum.
-- 📫 How to reach me: mustafa.ali.cetinkaya@outlook.com / [Personal Website](https://mustafaalicetinkaya.w3spaces.com)
+- 📫 How to reach me: mustafa.ali.cetinkaya@outlook.com
 - ⚡ Fun fact: Learning always new things. Because new is always better!
 
 ### Skills can be learned, experience can be gained. Interest is hard to instill. Passion for testing is the vital point. I am actively interested in QA field. 
